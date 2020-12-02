@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 /**
- * @route GET /v1/national/2014
+ * @route GET /v1/generalElections/2014
  * @description Get 2014 nationl election results
  * @access public
  */
@@ -20,7 +20,7 @@ router.get('/2014', async(req, res) => {
 })
 
 /**
- * @route GET v1/national/2014/topThree
+ * @route GET /v1/generalElections/2014/topThree
  * @description Get top three political parties in the national 2014 elections
  * @access public
  */
@@ -54,7 +54,7 @@ router.get('/2014/topThree', async(req, res) => {
 })
 
 /**
- * @route GET /national/2016
+ * @route GET /v1/generalElections/2019
  * @description Get 2016 nationl election results
  * @access public
  */
@@ -72,7 +72,7 @@ router.get('/2019', async(req, res) => {
 })
 
 /**
- * @route GET v1/national/2014/topThree
+ * @route GET /v1/generalElections/2014/topThree
  * @description Get top three political parties in the national 2014 elections
  * @access public
  */

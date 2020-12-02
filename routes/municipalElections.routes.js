@@ -4,11 +4,11 @@ const data = require('../data/provicial2016.json');
 
 
 /**
- * @route GET /2016/municipalities
+ * @route GET /v1/municipalElections/2016/provinceResults
  * @description Get 2016 municipal results in all provices
  * @access public
  */
-router.get('/2016', async(req, res) => {
+router.get('/2016/provinceResults', async(req, res) => {
     try {
         let eastern_cape;
         let free_state;
@@ -67,7 +67,7 @@ router.get('/2016', async(req, res) => {
 })
 
 /**
- * @route GET /2016/municipalities/province?geo_code=code
+ * @route GET /v1/municipalElections/2016/province?geo_code=code
  * @description Get province municipal results by geo code
  * @access public
  */
@@ -93,7 +93,7 @@ router.get('/2016/province', async(req, res) => {
 })
 
 /**
- * @route GET /2016/municipalities/organisation?name="Name of political party"
+ * @route GET /v1/municipalElections/2016/organisation?name="Name of political party"
  * @description get organisation total votes per province
  * @access public
  */
@@ -156,5 +156,40 @@ router.get('/2016/organisation', async(req, res) => {
         })
     }
 })
+
+/**
+ * @route GET /v1/municipalElections/2016/municipalities
+ * @description GET 2016 municipal elections results per municipalities
+ * @access public
+ */
+router.get('/2016/municipalities', async(req, res) => {
+    let eastern_cape = require('../data/municipalities2016/easternCape.json');
+    let free_state = require('../data/municipalities2016/freeState.json');
+    let gauteng = require('../data/municipalities2016/gauteng.json');
+    let kwazulu_natal = require('../data/municipalities2016/kwazuluNatal.json');
+    let limpopo = require('../data/municipalities2016/limpopo.json');
+    let mpumalanga = require('../data/municipalities2016/mpumalanga.json');
+    let north_west = require('../data/municipalities2016/northWest.json');
+    let northern_cape = require('../data/municipalities2016/northernCape.json');
+    let western_cape = require('../data/municipalities2016/westernCape.json');
+    try {
+        res.status(200).json({
+            eastern_cape,
+            free_state,
+            gauteng,
+            kwazulu_natal,
+            limpopo,
+            mpumalanga,
+            north_west,
+            northern_cape,
+            western_cape
+        })
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        })
+    }
+})
+
 
 module.exports = router;
