@@ -5,7 +5,7 @@ const path = require('path');
 
 const PORT = process.env.PORT || 5000;
 const organisationRoutes = require('./routes/organisations.routes');
-const municipalRoutes = require('./routes/municipal.routes');
+const municipalitiesRoutes = require('./routes/municipalities.routes');
 const nationalRoutes = require('./routes/national.routes');
 const app = express();
 
@@ -17,8 +17,8 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "index.html"));
 });
 
-app.use('/2016/municipals', municipalRoutes);
-app.use('/v1/2016/organisations', organisationRoutes);
+app.use('/v1/municipalities', municipalitiesRoutes);
+app.use('/v1/organisations', organisationRoutes);
 app.use('/v1/national', nationalRoutes);
 
 app.listen(PORT, () => {

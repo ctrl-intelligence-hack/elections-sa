@@ -4,11 +4,11 @@ const data = require('../data/provicial2016.json');
 
 
 /**
- * @route GET /2016/municipals
+ * @route GET /2016/municipalities
  * @description Get 2016 municipal results in all provices
  * @access public
  */
-router.get('/', async(req, res) => {
+router.get('/2016', async(req, res) => {
     try {
         let eastern_cape;
         let free_state;
@@ -67,11 +67,11 @@ router.get('/', async(req, res) => {
 })
 
 /**
- * @route GET /2016/municipals/province?geo_code=code
+ * @route GET /2016/municipalities/province?geo_code=code
  * @description Get province municipal results by geo code
  * @access public
  */
-router.get('/province', async(req, res) => {
+router.get('/2016/province', async(req, res) => {
     let province_code = req.query.geo_code;
     try {
         data.forEach(results => {
@@ -93,11 +93,11 @@ router.get('/province', async(req, res) => {
 })
 
 /**
- * @route GET /2016/municipals/organisation?name="Name of political party"
+ * @route GET /2016/municipalities/organisation?name="Name of political party"
  * @description get organisation total votes per province
  * @access public
  */
-router.get('/organisation', async(req, res) => {
+router.get('/2016/organisation', async(req, res) => {
     let name = req.query.name;
     try {
         let eastern_cape;
