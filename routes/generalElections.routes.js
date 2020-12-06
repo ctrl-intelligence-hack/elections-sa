@@ -172,7 +172,9 @@ router.get('/2009/topThree', async(req, res) => {
             }
         })
     } catch (error) {
-
+        res.status(500).json({
+            message: error.message
+        })
     }
 })
 
@@ -225,7 +227,9 @@ router.get('/2004/topThree', async(req, res) => {
             }
         })
     } catch (error) {
-
+        res.status(500).json({
+            message: error.message
+        })
     }
 })
 
