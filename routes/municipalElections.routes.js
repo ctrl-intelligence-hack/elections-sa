@@ -220,5 +220,31 @@ router.get('/2016/municipality', async(req, res, next) => {
     }
 })
 
+/**
+ * @route GET /v1/municipalElections/2016/municipalityType?name="MUNICIPALITY_TYPE"
+ * @description Get 2016 Results by Municipal Type
+ * @access public
+ */
+router.get('/2016/municipalityType', async(req, res, next) => {
+    let municipality_type = req.query.municipality_type;
+    const { metropolitan, local } = require('../data/municipalities2016/municipalityType2016')
+    try {
+        if (municipality_type == 'Metropolitan') {
+            res.status(200).json({
+                results: metropolitan
+            })
+        } else if (municipality_type == 'Local') {
+            res.status(200).json({
+                results: local
+            })
+        }
+        next()
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        })
+    }
+})
+
 
 module.exports = router;
