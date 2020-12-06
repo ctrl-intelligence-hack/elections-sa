@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const router = express.Router();
 
 /**
@@ -7,10 +8,16 @@ const router = express.Router();
  * @access public
  */
 router.get('/2014', async(req, res) => {
-    const data = require('../data/national2014.json');
+    var national2014Schema = mongoose.Schema({
+        name: String
+    })
+    const National = mongoose.model('national2014', national2014Schema);
     try {
-        res.status(200).json({
-            results: data
+        National.find().then((docs) => {
+            let results = docs[0];
+            res.status(200).json({
+                results
+            })
         })
     } catch (error) {
         res.status(500).json({

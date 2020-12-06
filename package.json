@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "local": "nodemon index.js",
-        "dev": "concurrently \"npm run local\" \"npm run docs:dev --prefix client\""
+        "dev": "nodemon index.js"
     },
     "keywords": [],
     "author": "",

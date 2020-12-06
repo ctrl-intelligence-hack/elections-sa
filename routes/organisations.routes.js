@@ -3,7 +3,7 @@ const router = express.Router();
 const data = require('../data/organisations')
 
 /**
- * @route GET /organisations
+ * @route GET /v1/organisations
  * @description Get all organisations
  * @access public
  */
