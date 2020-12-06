@@ -2,13 +2,12 @@ const express = require('express');
 const router = express.Router();
 const data = require('../data/provicial2016.json');
 
-
 /**
  * @route GET /v1/provincialElections/2016
  * @description Get 2016 provincial results in all provices
  * @access public
  */
-router.get('/2016', async(req, res) => {
+router.get('/2016', async(req, res, next) => {
     try {
         let eastern_cape;
         let free_state;
@@ -67,23 +66,20 @@ router.get('/2016', async(req, res) => {
 })
 
 /**
- * @route GET /v1/provincialElections/2016/province?geo_code=code
+ * @route GET /v1/provincialElections/2016/province?name="name"
  * @description Get province municipal results by geo code
  * @access public
  */
 router.get('/2016/province', (req, res, next) => {
-    let province_code = req.query.geo_code;
+    let province_name = req.query.name;
     try {
         data.forEach(results => {
-            if (results.geo_code == province_code) {
+            if (results.name == province_name) {
                 return res.status(200).json({
                     results
                 })
-            } else {
-                res.status(404).json({
-                    message: `Province with ${geo_code} geo code not founds`
-                })
             }
+            next()
         });
     } catch (error) {
         res.status(500).json({
