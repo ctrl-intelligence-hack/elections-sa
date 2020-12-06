@@ -1,7 +1,5 @@
 [{
-        "province": "Mpumalanga"
-    },
-    {
+        "province": "Mpumalanga",
         "geo_level": "municipality",
         "geo_code": "MP326",
         "geoid": "municipality-MP326",

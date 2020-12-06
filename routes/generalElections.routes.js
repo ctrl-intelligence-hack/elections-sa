@@ -56,7 +56,9 @@ router.get('/2014/topThree', async(req, res) => {
             }
         })
     } catch (error) {
-
+        res.status(500).json({
+            message: error.message
+        })
     }
 })
 
@@ -66,10 +68,16 @@ router.get('/2014/topThree', async(req, res) => {
  * @access public
  */
 router.get('/2019', async(req, res) => {
-    const data = require('../data/national2019.json');
+    var national2019Schema = mongoose.Schema({
+        name: String
+    })
+    const National = mongoose.model('national2019', national2019Schema);
     try {
-        res.status(200).json({
-            results: data
+        National.find().then((docs) => {
+            let results = docs[0];
+            res.status(200).json({
+                results
+            })
         })
     } catch (error) {
         res.status(500).json({

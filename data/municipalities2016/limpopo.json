@@ -1,7 +1,5 @@
 [{
-        "province": "Limpopo"
-    },
-    {
+        "province": "Limpopo",
         "geo_level": "municipality",
         "geo_code": "LIM355",
         "geoid": "municipality-LIM355",

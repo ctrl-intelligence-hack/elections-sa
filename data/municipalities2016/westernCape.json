@@ -1,7 +1,5 @@
 [{
-        "province": "Western Cape"
-    },
-    {
+        "province": "Western Cape",
         "geo_level": "municipality",
         "geo_code": "WC014",
         "geoid": "municipality-WC014",

@@ -1,7 +1,5 @@
 [{
-        "province": "KwaZulu-Natal"
-    },
-    {
+        "province": "KwaZulu-Natal",
         "geo_level": "municipality",
         "geo_code": "KZN238",
         "geoid": "municipality-KZN238",

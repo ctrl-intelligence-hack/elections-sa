@@ -1,7 +1,5 @@
 [{
-        "province": "Gauteng"
-    },
-    {
+        "province": "Gauteng",
         "geo_level": "municipality",
         "geo_code": "GT481",
         "geoid": "municipality-GT481",

@@ -1,7 +1,5 @@
 [{
-        "province": "Eastern Cape"
-    },
-    {
+        "province": "Eastern Cape",
         "geo_level": "municipality",
         "geo_code": "EC124",
         "geoid": "municipality-EC124",

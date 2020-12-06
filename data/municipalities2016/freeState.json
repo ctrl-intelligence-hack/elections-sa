@@ -1,7 +1,5 @@
 [{
-        "province": "Free State"
-    },
-    {
+        "province": "Free State",
         "geo_level": "municipality",
         "geo_code": "FS204",
         "geoid": "municipality-FS204",

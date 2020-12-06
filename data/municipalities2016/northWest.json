@@ -1,7 +1,5 @@
 [{
-        "province": "North West"
-    },
-    {
+        "province": "North West",
         "geo_level": "municipality",
         "geo_code": "NW383",
         "geoid": "municipality-NW383",

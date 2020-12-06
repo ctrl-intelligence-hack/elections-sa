@@ -1,7 +1,5 @@
 [{
-        "province": "Northern Cape"
-    },
-    {
+        "province": "Northern Cape",
         "geo_level": "municipality",
         "geo_code": "NC061",
         "geoid": "municipality-NC061",
