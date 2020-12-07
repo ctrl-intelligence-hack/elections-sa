@@ -8,16 +8,11 @@ const router = express.Router();
  * @access public
  */
 router.get('/2019', async(req, res) => {
-    var national2019Schema = mongoose.Schema({
-        name: String
-    })
-    const National = mongoose.model('national2019', national2019Schema);
+    const data = require('../data/national2019.json');
     try {
-        National.find().then((docs) => {
-            let results = docs[0];
-            res.status(200).json({
-                results
-            })
+        let results = data;
+        res.status(200).json({
+            results
         })
     } catch (error) {
         res.status(500).json({
@@ -68,16 +63,11 @@ router.get('/2019/topThree', async(req, res) => {
  * @access public
  */
 router.get('/2014', async(req, res) => {
-    var national2014Schema = mongoose.Schema({
-        name: String
-    })
-    const National = mongoose.model('national2014', national2014Schema);
+    const data = require('../data/national2014.json');
     try {
-        National.find().then((docs) => {
-            let results = docs[0];
-            res.status(200).json({
-                results
-            })
+        let results = data;
+        res.status(200).json({
+            results
         })
     } catch (error) {
         res.status(500).json({
@@ -223,6 +213,116 @@ router.get('/2004/topThree', async(req, res) => {
             results: {
                 'AFRICAN NATIONAL CONGRESS': anc,
                 'DEMOCRATIC ALLIANCE': da,
+                'INKATHA FREEDOM PARTY': ifp
+            }
+        })
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        })
+    }
+})
+
+/**
+ * @route GET /v1/generalElections/1999
+ * @description Get 1999 nationl election results
+ * @access public
+ */
+router.get('/1999', async(req, res) => {
+    const data = require('../data/national1999.json');
+    try {
+        let results = data;
+        res.status(200).json({
+            results
+        })
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        })
+    }
+})
+
+/**
+ * @route GET /v1/generalElections/2009/topThree
+ * @description Get top three political parties in the national 2009 elections
+ * @access public
+ */
+router.get('/1999/topThree', async(req, res) => {
+    const data = require('../data/national1999.json');
+    try {
+        let anc;
+        let da;
+        let ifp;
+        data.forEach(item => {
+            if (item['AFRICAN NATIONAL CONGRESS']) {
+                anc = item['AFRICAN NATIONAL CONGRESS']
+            }
+            if (item['DEMOCRATIC ALLIANCE']) {
+                da = item['DEMOCRATIC ALLIANCE']
+            }
+            if (item['INKATHA FREEDOM PARTY']) {
+                ifp = item['INKATHA FREEDOM PARTY']
+            }
+        });
+        res.status(200).json({
+            results: {
+                'AFRICAN NATIONAL CONGRESS': anc,
+                'DEMOCRATIC ALLIANCE': da,
+                'INKATHA FREEDOM PARTY': ifp
+            }
+        })
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        })
+    }
+})
+
+/**
+ * @route GET /v1/generalElections/1994
+ * @description Get 1994 nationl election results
+ * @access public
+ */
+router.get('/1994', async(req, res) => {
+    const data = require('../data/national1994.json');
+    try {
+        let results = data;
+        res.status(200).json({
+            results
+        })
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        })
+    }
+})
+
+/**
+ * @route GET /v1/generalElections/1994/topThree
+ * @description Get top three political parties in the national 1994 elections
+ * @access public
+ */
+router.get('/1994/topThree', async(req, res) => {
+    const data = require('../data/national1994.json');
+    try {
+        let anc;
+        let np;
+        let ifp;
+        data.forEach(item => {
+            if (item['AFRICAN NATIONAL CONGRESS']) {
+                anc = item['AFRICAN NATIONAL CONGRESS']
+            }
+            if (item['NEW NATIONAL PARTY']) {
+                np = item['NEW NATIONAL PARTY']
+            }
+            if (item['INKATHA FREEDOM PARTY']) {
+                ifp = item['INKATHA FREEDOM PARTY']
+            }
+        });
+        res.status(200).json({
+            results: {
+                'AFRICAN NATIONAL CONGRESS': anc,
+                'NEW NATIONAL PARTY': np,
                 'INKATHA FREEDOM PARTY': ifp
             }
         })
