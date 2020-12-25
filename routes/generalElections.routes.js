@@ -8,7 +8,7 @@ const router = express.Router();
  * @access public
  */
 router.get('/2019', async(req, res) => {
-    const data = require('../data/national2019.json');
+    const data = require('../data/national/national2019.json');
     try {
         let results = data;
         res.status(200).json({
@@ -27,7 +27,7 @@ router.get('/2019', async(req, res) => {
  * @access public
  */
 router.get('/2019/topThree', async(req, res) => {
-    const data = require('../data/national2019.json');
+    const data = require('../data/national/national2019.json');
     try {
         let anc;
         let da;
@@ -63,7 +63,7 @@ router.get('/2019/topThree', async(req, res) => {
  * @access public
  */
 router.get('/2014', async(req, res) => {
-    const data = require('../data/national2014.json');
+    const data = require('../data/national/national2014.json');
     try {
         let results = data;
         res.status(200).json({
@@ -82,7 +82,7 @@ router.get('/2014', async(req, res) => {
  * @access public
  */
 router.get('/2014/topThree', async(req, res) => {
-    const data = require('../data/national2014.json');
+    const data = require('../data/national/national2014.json');
     try {
         let anc;
         let da;
@@ -118,7 +118,7 @@ router.get('/2014/topThree', async(req, res) => {
  * @access public
  */
 router.get('/2009', async(req, res) => {
-    const data = require('../data/national2009.json');
+    const data = require('../data/national/national2009.json');
     try {
         let results = data;
         res.status(200).json({
@@ -137,7 +137,7 @@ router.get('/2009', async(req, res) => {
  * @access public
  */
 router.get('/2009/topThree', async(req, res) => {
-    const data = require('../data/national2009.json');
+    const data = require('../data/national/national2009.json');
     console.log(data)
     try {
         let anc;
@@ -174,7 +174,7 @@ router.get('/2009/topThree', async(req, res) => {
  * @access public
  */
 router.get('/2004', async(req, res) => {
-    const data = require('../data/national2004.json');
+    const data = require('../data/national/national2004.json');
     try {
         let results = data;
         res.status(200).json({
@@ -193,7 +193,7 @@ router.get('/2004', async(req, res) => {
  * @access public
  */
 router.get('/2004/topThree', async(req, res) => {
-    const data = require('../data/national2004.json');
+    const data = require('../data/national/national2004.json');
     try {
         let anc;
         let da;
@@ -229,7 +229,7 @@ router.get('/2004/topThree', async(req, res) => {
  * @access public
  */
 router.get('/1999', async(req, res) => {
-    const data = require('../data/national1999.json');
+    const data = require('../data/national/national1999.json');
     try {
         let results = data;
         res.status(200).json({
@@ -248,7 +248,7 @@ router.get('/1999', async(req, res) => {
  * @access public
  */
 router.get('/1999/topThree', async(req, res) => {
-    const data = require('../data/national1999.json');
+    const data = require('../data/national/national1999.json');
     try {
         let anc;
         let da;
@@ -284,7 +284,7 @@ router.get('/1999/topThree', async(req, res) => {
  * @access public
  */
 router.get('/1994', async(req, res) => {
-    const data = require('../data/national1994.json');
+    const data = require('../data/national/national1994.json');
     try {
         let results = data;
         res.status(200).json({
@@ -303,7 +303,7 @@ router.get('/1994', async(req, res) => {
  * @access public
  */
 router.get('/1994/topThree', async(req, res) => {
-    const data = require('../data/national1994.json');
+    const data = require('../data/national/national1994.json');
     try {
         let anc;
         let np;

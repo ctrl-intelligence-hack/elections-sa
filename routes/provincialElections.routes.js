@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const data = require('../data/provicial2016.json');
 
 /**
  * @route GET /v1/provincialElections/2016
@@ -72,6 +71,7 @@ router.get('/2016', async(req, res, next) => {
  */
 router.get('/2016/province', (req, res, next) => {
     let province_name = req.query.name;
+    const data = require('../data/provincial/provicial2016.json');
     try {
         data.forEach(results => {
             if (results.name == province_name) {
@@ -95,6 +95,7 @@ router.get('/2016/province', (req, res, next) => {
  */
 router.get('/2016', async(req, res) => {
     let name = req.query.name;
+    const data = require('../data/provincial/provicial2016.json');
     try {
         let eastern_cape;
         let free_state;
