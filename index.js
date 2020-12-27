@@ -23,10 +23,14 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "index.html"));
 });
 
+// Version one routes
 app.use('/v1/organisations', organisationRoutes);
 app.use('/v1/municipalElections', municipalElectionsRoutes);
 app.use('/v1/generalElections', generalElectionsRoutes);
 app.use('/v1/provincialElections', provincialElectionsRoutes);
+// Verstion 2 routes
+app.use('/v2/organisations', require('./routes/v2/organisations.routes'));
+app.use('/v2/generalElections', require('./routes/v2/nationalElections.routes'));
 
 app.listen(PORT, () => {
     console.log(`Server listening to port ${PORT}`)
