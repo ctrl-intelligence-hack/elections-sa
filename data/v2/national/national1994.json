@@ -6,99 +6,101 @@
     "registered_voters": 22709152,
     "total": 19726610,
     "spoilt_votes": 193112,
-    "AFRICAN NATIONAL CONGRESS": {
-        "votes": 12237655,
-        "percentage": 62.65,
-        "seats": 252
-    },
-    "NEW NATIONAL PARTY": {
-        "votes": 3983690,
-        "percentage": 20.39,
-        "seats": 82
-    },
-    "INKATHA FREEDOM PARTY": {
-        "votes": 2058294,
-        "percentage": 10.54,
-        "seats": 43
-    },
-    "FREEDOM FRONT": {
-        "votes": 424555,
-        "percentage": 2.17,
-        "seats": 9
-    },
-    "DEMOCRATIC ALLIANCE": {
-        "votes": 338426,
-        "percentage": 1.73,
-        "seats": 7
-    },
-    "PAN AFRICANIST CONGRESS OF AZANIA": {
-        "votes": 243478,
-        "percentage": 1.25,
-        "seats": 5
-    },
-    "AFRICAN CHRISTIAN DEMOCRATIC PARTY": {
-        "votes": 88104,
-        "percentage": 0.45,
-        "seats": 2
-    },
-    "AFRICA MUSLIM PARTY": {
-        "votes": 34466,
-        "percentage": 0.18,
-        "seats": 0
-    },
-    "AFRICAN MODERATES CONGRESS PARTY": {
-        "votes": 27690,
-        "percentage": 0.14,
-        "seats": 0
-    },
-    "DIKWANKWETLA PARTY OF SOUTH AFRICA": {
-        "votes": 19451,
-        "percentage": 0.10,
-        "seats": 0
-    },
-    "FEDERAL ALLIANCE": {
-        "votes": 17663,
-        "percentage": 0.09,
-        "seats": 0
-    },
-    "MINORITY FRONT": {
-        "votes": 13433,
-        "percentage": 0.07,
-        "seats": 0
-    },
-    "SPORT ORGANISATION FOR COLLECTIVE CONTRIBUTIONS AND EQUAL RIGHTS": {
-        "votes": 10575,
-        "percentage": 0.05,
-        "seats": 0
-    },
-    "AFRICAN DEMOCRATIC MOVEMENT": {
-        "votes": 9886,
-        "percentage": 0.05,
-        "seats": 0
-    },
-    "WOMENS RIGHTS PEACE PARTY": {
-        "votes": 6434,
-        "percentage": 0.03,
-        "seats": 0
-    },
-    "XIMOKO PARTY": {
-        "votes": 6320,
-        "percentage": 0.03,
-        "seats": 0
-    },
-    "KEEP IT STRAIGHT AND SIMPLE": {
-        "votes": 5916,
-        "percentage": 0.03,
-        "seats": 0
-    },
-    "WORKERS LIST PARTY": {
-        "votes": 4169,
-        "percentage": 0.02,
-        "seats": 0
-    },
-    "LUSO SOUTH AFRICAN PARTY": {
-        "votes": 3293,
-        "percentage": 0.02,
-        "seats": 0
+    "political_parties": {
+        "AFRICAN NATIONAL CONGRESS": {
+            "votes": 12237655,
+            "percentage": 62.65,
+            "seats": 252
+        },
+        "NEW NATIONAL PARTY": {
+            "votes": 3983690,
+            "percentage": 20.39,
+            "seats": 82
+        },
+        "INKATHA FREEDOM PARTY": {
+            "votes": 2058294,
+            "percentage": 10.54,
+            "seats": 43
+        },
+        "FREEDOM FRONT": {
+            "votes": 424555,
+            "percentage": 2.17,
+            "seats": 9
+        },
+        "DEMOCRATIC ALLIANCE": {
+            "votes": 338426,
+            "percentage": 1.73,
+            "seats": 7
+        },
+        "PAN AFRICANIST CONGRESS OF AZANIA": {
+            "votes": 243478,
+            "percentage": 1.25,
+            "seats": 5
+        },
+        "AFRICAN CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 88104,
+            "percentage": 0.45,
+            "seats": 2
+        },
+        "AFRICA MUSLIM PARTY": {
+            "votes": 34466,
+            "percentage": 0.18,
+            "seats": 0
+        },
+        "AFRICAN MODERATES CONGRESS PARTY": {
+            "votes": 27690,
+            "percentage": 0.14,
+            "seats": 0
+        },
+        "DIKWANKWETLA PARTY OF SOUTH AFRICA": {
+            "votes": 19451,
+            "percentage": 0.10,
+            "seats": 0
+        },
+        "FEDERAL ALLIANCE": {
+            "votes": 17663,
+            "percentage": 0.09,
+            "seats": 0
+        },
+        "MINORITY FRONT": {
+            "votes": 13433,
+            "percentage": 0.07,
+            "seats": 0
+        },
+        "SPORT ORGANISATION FOR COLLECTIVE CONTRIBUTIONS AND EQUAL RIGHTS": {
+            "votes": 10575,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "AFRICAN DEMOCRATIC MOVEMENT": {
+            "votes": 9886,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "WOMENS RIGHTS PEACE PARTY": {
+            "votes": 6434,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "XIMOKO PARTY": {
+            "votes": 6320,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "KEEP IT STRAIGHT AND SIMPLE": {
+            "votes": 5916,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "WORKERS LIST PARTY": {
+            "votes": 4169,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "LUSO SOUTH AFRICAN PARTY": {
+            "votes": 3293,
+            "percentage": 0.02,
+            "seats": 0
+        }
     }
 }]

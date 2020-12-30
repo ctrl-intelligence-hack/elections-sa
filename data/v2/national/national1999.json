@@ -6,84 +6,86 @@
     "registered_voters": 18172751,
     "total": 16228462,
     "spoilt_votes": 251320,
-    "AFRICAN NATIONAL CONGRESS": {
-        "votes": 10601330,
-        "percentage": 66.35,
-        "seats": 266
-    },
-    "DEMOCRATIC ALLIANCE": {
-        "votes": 1527337,
-        "percentage": 9.56,
-        "seats": 38
-    },
-    "INKATHA FREEDOM PARTY": {
-        "votes": 1371477,
-        "percentage": 8.58,
-        "seats": 34
-    },
-    "NEW NATIONAL PARTY": {
-        "votes": 1098215,
-        "percentage": 6.87,
-        "seats": 28
-    },
-    "UNITED DEMOCRATIC MOVEMENT": {
-        "votes": 546790,
-        "percentage": 3.42,
-        "seats": 14
-    },
-    "AFRICAN CHRISTIAN DEMOCRATIC PARTY": {
-        "votes": 228975,
-        "percentage": 1.43,
-        "seats": 6
-    },
-    "FREEDOM FRONT": {
-        "votes": 127217,
-        "percentage": 0.80,
-        "seats": 3
-    },
-    "UNITED CHRISTIAN DEMOCRATIC PARTY": {
-        "votes": 125280,
-        "percentage": 0.78,
-        "seats": 3
-    },
-    "PAN AFRICANIST CONGRESS OF AZANIA": {
-        "votes": 113125,
-        "percentage": 0.71,
-        "seats": 3
-    },
-    "FEDERAL ALLIANCE": {
-        "votes": 86704,
-        "percentage": 0.54,
-        "seats": 2
-    },
-    "MINORITY FRONT": {
-        "votes": 48277,
-        "percentage": 0.30,
-        "seats": 1
-    },
-    "AFRIKANER EENHEIDSBEWEGING": {
-        "votes": 46292,
-        "percentage": 0.29,
-        "seats": 1
-    },
-    "AZANIAN PEOPLE'S ORGANISATION": {
-        "votes": 27257,
-        "percentage": 0.17,
-        "seats": 1
-    },
-    "ABOILITION OF INCOME TAX AND USURY PARTY": {
-        "votes": 10611,
-        "percentage": 0.07,
-        "seats": 0
-    },
-    "GOVERNMENT BY THE PEOPLE GREEN PARTY": {
-        "votes": 9193,
-        "percentage": 0.06,
-        "seats": 0
-    },
-    "SOCIALIST PARTY OF AZANIA": {
-        "votes": 9062,
-        "percentage": 0.06,
-        "seats": 0
+    "political_parties": {
+        "AFRICAN NATIONAL CONGRESS": {
+            "votes": 10601330,
+            "percentage": 66.35,
+            "seats": 266
+        },
+        "DEMOCRATIC ALLIANCE": {
+            "votes": 1527337,
+            "percentage": 9.56,
+            "seats": 38
+        },
+        "INKATHA FREEDOM PARTY": {
+            "votes": 1371477,
+            "percentage": 8.58,
+            "seats": 34
+        },
+        "NEW NATIONAL PARTY": {
+            "votes": 1098215,
+            "percentage": 6.87,
+            "seats": 28
+        },
+        "UNITED DEMOCRATIC MOVEMENT": {
+            "votes": 546790,
+            "percentage": 3.42,
+            "seats": 14
+        },
+        "AFRICAN CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 228975,
+            "percentage": 1.43,
+            "seats": 6
+        },
+        "FREEDOM FRONT": {
+            "votes": 127217,
+            "percentage": 0.80,
+            "seats": 3
+        },
+        "UNITED CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 125280,
+            "percentage": 0.78,
+            "seats": 3
+        },
+        "PAN AFRICANIST CONGRESS OF AZANIA": {
+            "votes": 113125,
+            "percentage": 0.71,
+            "seats": 3
+        },
+        "FEDERAL ALLIANCE": {
+            "votes": 86704,
+            "percentage": 0.54,
+            "seats": 2
+        },
+        "MINORITY FRONT": {
+            "votes": 48277,
+            "percentage": 0.30,
+            "seats": 1
+        },
+        "AFRIKANER EENHEIDSBEWEGING": {
+            "votes": 46292,
+            "percentage": 0.29,
+            "seats": 1
+        },
+        "AZANIAN PEOPLE'S ORGANISATION": {
+            "votes": 27257,
+            "percentage": 0.17,
+            "seats": 1
+        },
+        "ABOILITION OF INCOME TAX AND USURY PARTY": {
+            "votes": 10611,
+            "percentage": 0.07,
+            "seats": 0
+        },
+        "GOVERNMENT BY THE PEOPLE GREEN PARTY": {
+            "votes": 9193,
+            "percentage": 0.06,
+            "seats": 0
+        },
+        "SOCIALIST PARTY OF AZANIA": {
+            "votes": 9062,
+            "percentage": 0.06,
+            "seats": 0
+        }
     }
 }]

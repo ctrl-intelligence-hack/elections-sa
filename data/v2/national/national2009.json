@@ -1,0 +1,146 @@
+[{
+    "geo_level": "country",
+    "geo_code": "ZA",
+    "geoid": "country-ZA",
+    "name": "South Africa",
+    "registered_voters": 23000000,
+    "total": 17680729,
+    "spoilt_votes": 239237,
+    "political_parties": {
+        "AFRICAN NATIONAL CONGRESS": {
+            "votes": 11650748,
+            "percentage": 65.90,
+            "seats": 264
+        },
+        "DEMOCRATIC ALLIANCE": {
+            "votes": 2945829,
+            "percentage": 16.66,
+            "seats": 67
+        },
+        "CONGRESS OF THE PEOPLE": {
+            "votes": 1311027,
+            "percentage": 7.42,
+            "seats": 30
+        },
+        "INKATHA FREEDOM PARTY": {
+            "votes": 804260,
+            "percentage": 4.55,
+            "seats": 18
+        },
+        "INDEPENDENT DEMOCRATS": {
+            "votes": 162915,
+            "percentage": 0.92,
+            "seats": 4
+        },
+        "UNITED DEMOCRATIC MOVEMENT": {
+            "votes": 149680,
+            "percentage": 0.85,
+            "seats": 4
+        },
+        "VRYHEIDSFRONT PLUS": {
+            "votes": 146796,
+            "percentage": 0.83,
+            "seats": 4
+        },
+        "AFRICAN CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 142658,
+            "percentage": 0.81,
+            "seats": 3
+        },
+        "UNITED CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 66086,
+            "percentage": 0.37,
+            "seats": 2
+        },
+        "PAN AFRICANIST CONGRESS OF AZANIA": {
+            "votes": 48530,
+            "percentage": 0.27,
+            "seats": 1
+        },
+        "MINORITY FRONT": {
+            "votes": 43474,
+            "percentage": 0.25,
+            "seats": 0
+        },
+        "AZANIAN PEOPLE'S ORGANISATION": {
+            "votes": 38245,
+            "percentage": 0.22,
+            "seats": 0
+        },
+        "AFRICAN PEOPLE'S CONVENTION": {
+            "votes": 35867,
+            "percentage": 0.20,
+            "seats": 0
+        },
+        "MOVEMENT DEMOCRATIC PARTY": {
+            "votes": 29747,
+            "percentage": 0.17,
+            "seats": 0
+        },
+        "AL JAMA-AH": {
+            "votes": 25947,
+            "percentage": 0.15,
+            "seats": 0
+        },
+        "CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 11638,
+            "percentage": 0.07,
+            "seats": 0
+        },
+        "NATIONAL DEMOCRATIC CONVENTION": {
+            "votes": 10830,
+            "percentage": 0.06,
+            "seats": 0
+        },
+        "NEW VISION PARTY": {
+            "votes": 9296,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "UNITED INDEPENDENT FRONT": {
+            "votes": 8872,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "GREAT KONGRESS OF SOUTH AFRICA": {
+            "votes": 8271,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "SOUTH AFRICAN DEMOCRATIC CONGRESS": {
+            "votes": 6035,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "KEEP IT STRAIGHT AND SIMPLE": {
+            "votes": 5440,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "PAN AFRICANIST MOVEMENT": {
+            "votes": 5426,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "ALLIANCE OF FREE DEOMCRATS": {
+            "votes": 5178,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "WOMEN FORWARD": {
+            "votes": 5087,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "NATIONAL PARTY SOUTH AFRICA": {
+            "votes": 3378,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "A PARTY": {
+            "votes": 8472,
+            "percentage": 0.02,
+            "seats": 0
+        }
+    }
+}]

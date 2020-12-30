@@ -1,0 +1,156 @@
+[{
+    "geo_level": "country",
+    "geo_code": "ZA",
+    "geoid": "country-ZA",
+    "name": "South Africa",
+    "registered_voters": 25381293,
+    "total": 18654457,
+    "spoilt_votes": 251960,
+    "political_parties": {
+        "AFRICAN NATIONAL CONGRESS": {
+            "votes": 11436921,
+            "percentage": 62.15,
+            "seats": 249
+        },
+        "DEMOCRATIC ALLIANCE": {
+            "votes": 4091584,
+            "percentage": 22.23,
+            "seats": 89
+        },
+        "ECONOMIC FREEDOM FIGHTERS": {
+            "votes": 1169259,
+            "percentage": 6.35,
+            "seats": 25
+        },
+        "INKATHA FREEDOM PARTY": {
+            "votes": 441854,
+            "percentage": 2.40,
+            "seats": 10
+        },
+        "NATIONAL FREEDOM PARTY": {
+            "votes": 288742,
+            "percentage": 1.57,
+            "seats": 6
+        },
+        "UNITED DEMOCRATIC MOVEMENT": {
+            "votes": 184636,
+            "percentage": 1.00,
+            "seats": 4
+        },
+        "VRYHEIDSFRONT PLUS": {
+            "votes": 165715,
+            "percentage": 0.90,
+            "seats": 4
+        },
+        "CONGRESS  OF THE PEOPLE": {
+            "votes": 123235,
+            "percentage": 0.67,
+            "seats": 3
+        },
+        "AFRICAN CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 104039,
+            "percentage": 0.57,
+            "seats": 3
+        },
+        "AFRICAN INDEPENDENT CONGRESS": {
+            "votes": 97642,
+            "percentage": 0.53,
+            "seats": 3
+        },
+        "AGANG SOUTH AFRICA": {
+            "votes": 52350,
+            "percentage": 0.28,
+            "seats": 2
+        },
+        "PAN AFRICANIST CONGRESS OF AZANIA": {
+            "votes": 37784,
+            "percentage": 0.21,
+            "seats": 1
+        },
+        "AFRICAN PEOPLE'S CONVENTION": {
+            "votes": 30676,
+            "percentage": 0.17,
+            "seats": 1
+        },
+        "AL JAMA-AH": {
+            "votes": 25976,
+            "percentage": 0.14,
+            "seats": 0
+        },
+        "MINORITY FRONT": {
+            "votes": 22589,
+            "percentage": 0.12,
+            "seats": 0
+        },
+        "UNITED CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 21744,
+            "percentage": 0.12,
+            "seats": 0
+        },
+        "AZANIAN PEOPLE'S ORGANISATION": {
+            "votes": 20421,
+            "percentage": 0.11,
+            "seats": 0
+        },
+        "BUSHBUCKRIDGE RESIDENTS ASSOCIATION": {
+            "votes": 15271,
+            "percentage": 0.08,
+            "seats": 0
+        },
+        "INDEPENDENT CIVIC ORGANISATION OF SOUTH AFRICA": {
+            "votes": 14472,
+            "percentage": 0.08,
+            "seats": 0
+        },
+        "PATRIOTIC ALLIANCE": {
+            "votes": 13263,
+            "percentage": 0.07,
+            "seats": 0
+        },
+        "WORKERS AND SOCIALIST PARTY": {
+            "votes": 8331,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "UBUNTU PARTY": {
+            "votes": 8234,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "KINGDOM GOVERNANCE MOVEMENT": {
+            "votes": 6408,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "FRONT NASIONAAL/FRONT NATIONAL": {
+            "votes": 5138,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "KEEP IT STRAIGHT AND SIMPLE": {
+            "votes": 4294,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "PAN AFRICANIST MOVEMENT": {
+            "votes": 3815,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "FIRST NATION LIBERATION ALLIANCE": {
+            "votes": 3297,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "UNITED CONGRESS": {
+            "votes": 21744,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "PEOPLES ALLIANCE": {
+            "votes": 1671,
+            "percentage": 0.01,
+            "seats": 0
+        }
+    }
+}]
