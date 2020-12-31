@@ -865,43 +865,43 @@
     },
     {
         "name": "INTERNATIONAL REVELATION CONGRESS",
-        "logo": "",
-        "status": "",
-        "level": "",
-        "telephone": "",
-        "address": ""
+        "logo": "https://www.elections.org.za/content/img_parties/IRC.jpg",
+        "status": "Registered",
+        "level": "National",
+        "telephone": "083 559 5147",
+        "address": "1693 TSHIAWELO, THOHOYANDOU STREET, SOWETO, 1818"
     },
     {
         "name": "ISITHUNZI SOM-AFRIKA ECONO FIGHTERS",
-        "logo": "",
-        "status": "",
-        "level": "",
-        "telephone": "",
-        "address": ""
+        "logo": "https://www.elections.org.za/content/img_parties/ISTHUNZIDC28.jpg",
+        "status": "Registered",
+        "level": "KwaZulu-Natal",
+        "telephone": "078 559 6124",
+        "address": "P.O. BOX 377 , EMPANGENI, ESIKHALENI, 3887"
     },
     {
         "name": "KAAP AGULHAS CIVIC ORGANISASIE",
-        "logo": "",
-        "status": "",
-        "level": "",
-        "telephone": "",
-        "address": ""
+        "logo": "https://www.elections.org.za/content/img_parties/KAPCOWC033.jpg",
+        "status": "Registered",
+        "level": "Western Cape",
+        "telephone": "078 605 2189",
+        "address": "11 0CTOBERSTREET, SELFBOUFASE, BREDASDORP, 7280"
     },
     {
         "name": "KAROO DEMOCRATIC FORCE",
-        "logo": "",
-        "status": "",
-        "level": "",
-        "telephone": "",
-        "address": ""
+        "logo": "https://www.elections.org.za/content/img_parties/KDFWC053.jpg",
+        "status": "Deregistered",
+        "level": "Western Cape",
+        "telephone": "078 411 8113",
+        "address": "7 DU TOIT STREET, LANDE, BEAFORT WEST, 6970"
     },
     {
         "name": "KAROO GEMEENSKAP PARTY",
-        "logo": "",
-        "status": "",
-        "level": "",
-        "telephone": "",
-        "address": ""
+        "logo": "https://www.elections.org.za/content/img_parties/KGPWC052.jpg",
+        "status": "Registered",
+        "level": "Western Cape",
+        "telephone": "023 541 1964",
+        "address": "02 VOOR STREET, PRINCE ALBERT, 6930"
     },
     {
         "name": "KAROO ONTWIKKELINGS PARTY",
@@ -912,31 +912,76 @@
         "address": ""
     },
     {
-        "name": "KEEP IT STRAIGHT AND SIMPLE"
+        "name": "KEEP IT STRAIGHT AND SIMPLE",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "KGATELOPELE COMMUNITY FORUM"
+        "name": "KGATELOPELE COMMUNITY FORUM",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "KHAI-MA ONAFHANKLIKE KANDIDATE KOALISIE"
+        "name": "KHAI-MA ONAFHANKLIKE KANDIDATE KOALISIE",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "KHOISAN KINGDOM AND ALL PEOPLE"
+        "name": "KHOISAN KINGDOM AND ALL PEOPLE",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "KHOISAN REVOLUTION"
+        "name": "KHOISAN REVOLUTION",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "KINGDOM GOVERNANCE MOVEMENT"
+        "name": "KINGDOM GOVERNANCE MOVEMENT",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "KNYSNA UNITY CONGRESS"
+        "name": "KNYSNA UNITY CONGRESS",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "KOUKAMMA INDEPENDENT PARTY"
+        "name": "KOUKAMMA INDEPENDENT PARTY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "LAND CLAIMS FIGHTERS"
+        "name": "LAND CLAIMS FIGHTERS",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
         "name": "LAND PARTY"
@@ -1212,87 +1257,227 @@
         "name": "THE SOCIALIST PARTY OF AZANIA"
     },
     {
-        "name": "TRULY ALLIANCE"
+        "name": "TRULY ALLIANCE",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "TZANEEN FREEDOM PARTY"
+        "name": "TZANEEN FREEDOM PARTY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UBUMBANO LWESIZWE SABANGONI"
+        "name": "UBUMBANO LWESIZWE SABANGONI",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UBUNTU PARTY"
+        "name": "UBUNTU PARTY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UMEMPLOYED PEOPLES ASSOCIATION"
+        "name": "UMEMPLOYED PEOPLES ASSOCIATION",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNEMPLOYMENT MOVEMENT SA"
+        "name": "UNEMPLOYMENT MOVEMENT SA",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED CHRISTIAN DEMOCRATIC PARTY"
+        "name": "UNITED CHRISTIAN DEMOCRATIC PARTY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED CONGRESS"
+        "name": "UNITED CONGRESS",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED CONSTRUCTIVE PARTY"
+        "name": "UNITED CONSTRUCTIVE PARTY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED DEMOCRATIC MOVEMENT"
+        "name": "UNITED DEMOCRATIC MOVEMENT",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED DEMOCRATS"
+        "name": "UNITED DEMOCRATS",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED FRANSCHHOEK VALLEY"
+        "name": "UNITED FRANSCHHOEK VALLEY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED FRONT"
+        "name": "UNITED FRONT",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED FRONT OF CIVICS"
+        "name": "UNITED FRONT OF CIVICS",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED FRONT OF THE EASTERN CAPE"
+        "name": "UNITED FRONT OF THE EASTERN CAPE",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED INDEPENDENT FRONT"
+        "name": "UNITED INDEPENDENT FRONT",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED PARTY"
+        "name": "UNITED PARTY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED PEOPLE OF SOUTH AFRICA"
+        "name": "UNITED PEOPLE OF SOUTH AFRICA",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED PEOPLES PARTY"
+        "name": "UNITED PEOPLES PARTY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "UNITED RESIDENTS FRONT"
+        "name": "UNITED RESIDENTS FRONT",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "VALUE EDUCATION NATIONALISM DEMOCRACY IN AFRICA"
+        "name": "VALUE EDUCATION NATIONALISM DEMOCRACY IN AFRICA",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "VRYHEIDSFRONT PLUS"
+        "name": "VRYHEIDSFRONT PLUS",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "WESTERN CAPE COMMUNITY"
+        "name": "WESTERN CAPE COMMUNITY",
+        "logo": "",
+        "status": "",
+        "level": "",
+        "telephone": "",
+        "address": ""
     },
     {
-        "name": "WITZENBERG AKSIE"
+        "name": "WITZENBERG AKSIE",
+        "logo": "https://www.elections.org.za/content/img_parties/WAWC022.jpg",
+        "status": "Registered",
+        "level": "Western Cape",
+        "telephone": "083 872 1898",
+        "address": "14 PROTEA AVE, P.A. HAMLET, WITZENBERG, 6840"
     },
     {
-        "name": "WORKING-TOGETHER POLITICAL PARTY"
+        "name": "WORKING-TOGETHER POLITICAL PARTY",
+        "logo": "https://www.elections.org.za/content/img_parties/W.T.P.P.NW385.jpg",
+        "status": "Registered",
+        "level": "National",
+        "telephone": "071 752 8572",
+        "address": "P O BOX 1053, LERATO, 2880"
     },
     {
-        "name": "WOMEN FORWARD"
+        "name": "WOMEN FORWARD",
+        "logo": "https://www.elections.org.za/content/img_parties/WF.jpg",
+        "status": "Registered",
+        "level": "National",
+        "telephone": "086 182 3823",
+        "address": "P.O. BOX 22170, MAYORS WALK, PIETERMARITZBURG, 3208"
     },
     {
-        "name": "XIMOKO PARTY"
+        "name": "XIMOKO PARTY",
+        "logo": "https://www.elections.org.za/content/img_parties/XP.jpg",
+        "status": "Registered",
+        "level": "National",
+        "telephone": "015 81 23718",
+        "address": "PO BOX 5202, GIYANI, 0826"
     },
     {
-        "name": "ZULU ROYAL PROPERTY"
+        "name": "ZULU ROYAL PROPERTY",
+        "logo": "https://www.elections.org.za/content/img_parties/ZRP.jpg",
+        "status": "Registered",
+        "level": "National",
+        "telephone": "072 923 7090",
+        "address": "P O BOX 2245, MBAZWANA, 3974"
     }
 ]

@@ -1,0 +1,22 @@
+[{
+        "name": "Vote By-Elections",
+        "description": "A by-election is an election that takes place in a ward in a municipality between general municipal elections which are held every five years",
+        "date": "09 December 2020",
+        "time": "7AM - 9PM",
+        "status": "Past"
+    },
+    {
+        "name": "Vote By-Elections",
+        "description": "A by-election is an election that takes place in a ward in a municipality between general municipal elections which are held every five years",
+        "date": "21 January 2021",
+        "time": "7AM - 9PM",
+        "status": "Upcoming"
+    },
+    {
+        "name": "2024 General Election",
+        "description": "The 2024 South African general election will be held in 2024 to elect a new National Assembly as well as the provincial legislature in each province.",
+        "date": "TBC",
+        "time": "TBC",
+        "status": "Upcoming"
+    }
+]
