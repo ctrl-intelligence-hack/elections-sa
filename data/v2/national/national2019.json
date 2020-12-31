@@ -1,0 +1,251 @@
+[{
+    "geo_level": "country",
+    "geo_code": "ZA",
+    "geoid": "country-ZA",
+    "name": "South Africa",
+    "registered_voters": 26779025,
+    "total": 117671616,
+    "spoilt_votes": 235472,
+    "political_parties": {
+        "AFRICAN NATIONAL CONGRESS": {
+            "votes": 10026475,
+            "percentage": 57.50,
+            "seats": 230
+        },
+        "DEMOCRATIC ALLIANCE": {
+            "votes": 3621188,
+            "percentage": 20.77,
+            "seats": 84
+        },
+        "ECONOMIC FREEDOM FIGHTERS": {
+            "votes": 1881521,
+            "percentage": 10.79,
+            "seats": 44
+        },
+        "INKATHA FREEDOM PARTY": {
+            "votes": 588839,
+            "percentage": 3.38,
+            "seats": 14
+        },
+        "VRYHEIDSFRONT PLUS": {
+            "votes": 414864,
+            "percentage": 2.38,
+            "seats": 10
+        },
+        "AFRICAN CHRISTIAN DEMOCRATIC PARTY": {
+            "votes": 146262,
+            "percentage": 0.84,
+            "seats": 4
+        },
+        "UNITED DEMOCRATIC MOVEMENT": {
+            "votes": 78030,
+            "percentage": 0.45,
+            "seats": 2
+        },
+        "AFRICAN TRANSFORMATION MOVEMENT": {
+            "votes": 76830,
+            "percentage": 0.44,
+            "seats": 2
+        },
+        "GOOD": {
+            "votes": 70408,
+            "percentage": 0.40,
+            "seats": 2
+        },
+        "NATIONAL FREEDOM PARTY": {
+            "votes": 61220,
+            "percentage": 0.35,
+            "seats": 2
+        },
+        "AFRICAN INDEPENDENT CONGRESS": {
+            "votes": 48107,
+            "percentage": 0.28,
+            "seats": 2
+        },
+        "CONGRESS  OF THE PEOPLE": {
+            "votes": 47461,
+            "percentage": 0.27,
+            "seats": 2
+        },
+        "PAN AFRICANIST CONGRESS OF AZANIA": {
+            "votes": 32677,
+            "percentage": 0.18,
+            "seats": 1
+        },
+        "AL JAMA-AH": {
+            "votes": 31468,
+            "percentage": 0.18,
+            "seats": 1
+        },
+        "AFRICAN SECURITY CONGRESS": {
+            "votes": 26263,
+            "percentage": 0.15,
+            "seats": 0
+        },
+        "SOCIALIST REVOLUTIONARY WORKERS PARTY": {
+            "votes": 24439,
+            "percentage": 0.14,
+            "seats": 0
+        },
+        "BLACK FIRST LAND FIRST": {
+            "votes": 19796,
+            "percentage": 0.11,
+            "seats": 0
+        },
+        "AFRICAN PEOPLE'S CONVENTION": {
+            "votes": 19593,
+            "percentage": 0.11,
+            "seats": 0
+        },
+        "AFRIKAN ALLIANCE OF SOCIAL DEMOCRATS": {
+            "votes": 18834,
+            "percentage": 0.11,
+            "seats": 0
+        },
+        "CAPITALIST PARTY OF SOUTH AFRICA": {
+            "votes": 15915,
+            "percentage": 0.09,
+            "seats": 0
+        },
+        "ALLIANCE FOR TRANSFORMATION FOR ALL": {
+            "votes": 14266,
+            "percentage": 0.08,
+            "seats": 0
+        },
+        "AGANG SOUTH AFRICA": {
+            "votes": 13856,
+            "percentage": 0.08,
+            "seats": 0
+        },
+        "AZANIAN PEOPLE'S ORGANISATION": {
+            "votes": 12823,
+            "percentage": 0.07,
+            "seats": 0
+        },
+        "INDEPENDENT CIVIC ORGANISATION OF SOUTH AFRICA": {
+            "votes": 12386,
+            "percentage": 0.07,
+            "seats": 0
+        },
+        "MINORITY FRONT": {
+            "votes": 11961,
+            "percentage": 0.07,
+            "seats": 0
+        },
+        "DEMOCRATIC LIBERAL CONGRESS": {
+            "votes": 10767,
+            "percentage": 0.06,
+            "seats": 0
+        },
+        "BETTER RESIDENTS ASSOCIATION": {
+            "votes": 9179,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "FORUM 4 SERVICE DELIVERY": {
+            "votes": 8525,
+            "percentage": 0.05,
+            "seats": 0
+        },
+        "FRONT NASIONAAL/FRONT NATIONAL": {
+            "votes": 7144,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "LAND PARTY": {
+            "votes": 7074,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "AFRICAN COVENANT": {
+            "votes": 7019,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "PATRIOTIC ALLIANCE": {
+            "votes": 6660,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "AFRICAN DEMOCRATIC CHANGE": {
+            "votes": 6499,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "ECONOMIC EMANCIPATION FORUM": {
+            "votes": 6319,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "WOMEN FORWARD": {
+            "votes": 6108,
+            "percentage": 0.04,
+            "seats": 0
+        },
+        "CHRISTIAN POLITICAL MOVEMENT": {
+            "votes": 4980,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "AFRICAN CONTENT MOVEMENT": {
+            "votes": 4841,
+            "percentage": 0.03,
+            "seats": 0
+        },
+        "INTERNATIONAL REVELATION CONGRESS": {
+            "votes": 4247,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "NATIONAL PEOPLES FRONT": {
+            "votes": 4019,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "AFRICAN RENAISSANCE UNITY PARTY": {
+            "votes": 3860,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "AFRICAN CONGRESS OF DEMOCRATS": {
+            "votes": 3768,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "SOUTH AFRICAN NATIONAL CONGRESS OF TRADITIONAL AUTHORITIES": {
+            "votes": 3714,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "COMPATRIOTS OF SOUTH AFRICA": {
+            "votes": 3406,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "PEOPLE'S REVOLUTIONARY MOVEMENT": {
+            "votes": 2844,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "POWER OF AFRICANS UNITY": {
+            "votes": 2685,
+            "percentage": 0.02,
+            "seats": 0
+        },
+        "FREE DEMOCRATS": {
+            "votes": 2580,
+            "percentage": 0.01,
+            "seats": 0
+        },
+        "SOUTH AFRICAN MAINTANANCE AND ESTATE BENEFICIARIES ASSOCIATI": {
+            "votes": 2445,
+            "percentage": 0.01,
+            "seats": 0
+        },
+        "NATIONAL PEOPLES AMBASSADORS": {
+            "votes": 1979,
+            "percentage": 0.01,
+            "seats": 0
+        }
+    }
+}]
